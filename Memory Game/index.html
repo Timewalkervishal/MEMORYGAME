@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Match Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-card">
+            <h1 class="title">Color Match Memory Game</h1>
+            <p class="instructions">Match pairs of colors by clicking the cards. Remember the positions and find all pairs!</p>
+            
+            <div class="score-board">
+                <div class="score-item">
+                    <span class="label">Score</span>
+                    <span class="value" id="score">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">Moves</span>
+                    <span class="value" id="moves">0</span>
+                </div>
+            </div>
+
+            <div id="gameGrid" class="game-grid"></div>
+
+            <button id="resetBtn" class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
